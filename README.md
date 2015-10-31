@@ -9,9 +9,9 @@
 	- Upload files to this shared folder
 
 ### How to run ?
-Socket Programming :
-	Compiling code : gcc server_client.c -lcrypto -lssl
-	To run code : ./a.out
+- Socket Programming :
+	- Compiling code : gcc server_client.c -lcrypto -lssl
+	- To run code : ./a.out
 
 After running, it asks for the host port and then next server port. These should be vice versa while running the server and client There is a FileUploadAllow or FileUploadDeny input to be given for the permissions for uploading files.
 
